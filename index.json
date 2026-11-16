@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "title": { "en": "DSH Community Plugins", "zh": "DSH 社区插件" },
+  "description": { "en": "Community DSH bundles", "zh": "社区 DSH bundle" },
+  "plugins": [
+    {
+      "name": "@zknyy/session-highlight",
+      "title": { "en": "Session highlight", "zh": "会话高亮" },
+      "description": {
+        "en": "Highlights the active session's name with a flowing iridescent gradient and scrolls long titles so their full text stays readable.",
+        "zh": "让左侧会话列表中当前活动会话的名字显示不停滑动的彩色流光渐变，并让过长的标题走马灯滚动，始终展示完整内容。"
+      },
+      "icon": "icons/dsh-session-highlight.svg",
+      "metadata": {
+        "keywords": ["deepseek-harness", "dsh", "plugin", "session", "highlight", "sidebar", "marquee"]
+      },
+      "dist-tags": { "latest": "1.0.0" },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794842190,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0-rc.2 <0.3.0" }
+        }
+      ]
+    }
+  ]
+}
