@@ -16,11 +16,11 @@
       "metadata": {
         "keywords": ["deepseek-harness", "dsh", "plugin", "session", "highlight", "sidebar", "marquee"]
       },
-      "dist-tags": { "latest": "1.0.1" },
+      "dist-tags": { "latest": "1.0.2" },
       "versions": [
         {
-          "version": "1.0.1",
-          "publishTimestamp": 1794844429,
+          "version": "1.0.2",
+          "publishTimestamp": 1794845087,
           "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.0-rc.2 <0.3.0" }
         }

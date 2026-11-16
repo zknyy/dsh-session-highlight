@@ -1,9 +1,13 @@
 {
   "name": "@zknyy/dsh-session-highlight",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Highlights the active session's name in the DSH sidebar with a flowing iridescent gradient and scrolls long titles so their full text stays readable.",
   "author": "zknyy",
   "homepage": "https://github.com/zknyy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zknyy/dsh-session-highlight.git"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"
