@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff512f"/>
+      <stop offset="0.2" stop-color="#f09819"/>
+      <stop offset="0.4" stop-color="#ffd200"/>
+      <stop offset="0.6" stop-color="#36d1dc"/>
+      <stop offset="0.8" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#dd2476"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="300" fill="#1b1d23"/>
+  <rect x="24" y="24" width="200" height="252" rx="12" fill="#15171c" stroke="#2a2e38"/>
+  <text x="40" y="52" font-family="sans-serif" font-size="13" fill="#8a919e">会话</text>
+  <g font-family="sans-serif" font-size="13">
+    <rect x="36" y="68" width="176" height="30" rx="6" fill="#22262e"/>
+    <text x="46" y="88" fill="#9aa1ad">产品需求评审</text>
+    <rect x="36" y="104" width="176" height="30" rx="6" fill="#1e2130" stroke="url(#flow)"/>
+    <text x="46" y="124" fill="url(#flow)">DeepSeek Harness 高亮插件</text>
+    <rect x="36" y="140" width="176" height="30" rx="6" fill="#22262e"/>
+    <text x="46" y="160" fill="#9aa1ad">周报整理</text>
+    <rect x="36" y="176" width="176" height="30" rx="6" fill="#22262e"/>
+    <text x="46" y="196" fill="#9aa1ad">接口联调</text>
+  </g>
+  <text x="300" y="150" font-family="sans-serif" font-size="18" fill="#cfd4dc">当前活动会话：流光渐变 + 走马灯</text>
+  <text x="300" y="180" font-family="sans-serif" font-size="13" fill="#8a919e">标题超出宽度时自动往复滚动，始终展示完整内容</text>
+</svg>

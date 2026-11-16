@@ -1,0 +1,33 @@
+{
+  "name": "@zknyy/dsh-session-highlight",
+  "version": "1.0.1",
+  "description": "Highlights the active session's name in the DSH sidebar with a flowing iridescent gradient and scrolls long titles so their full text stays readable.",
+  "author": "zknyy",
+  "homepage": "https://github.com/zknyy",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "keywords": ["deepseek-harness", "dsh", "plugin", "session", "highlight", "sidebar", "marquee"],
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "docs", "icon.svg", "LICENSE"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-workspace"]
+    }
+  }
+}

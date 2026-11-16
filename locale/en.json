@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Session highlight",
+    "description": "Highlights the active session's name with a flowing iridescent gradient and scrolls long titles so their full text stays readable.",
+    "detail": "docs/DETAIL.md"
+  }
+}
